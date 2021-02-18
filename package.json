@@ -1,0 +1,21 @@
+{
+    "name": "extjsext",
+    "displayName": ".",
+    "description": "extjs4 templates snippets",
+    "version": "1.0.1", 
+    "publisher": "Aneury Perez",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "extjs4",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

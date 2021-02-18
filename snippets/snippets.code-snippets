@@ -1,0 +1,75 @@
+{
+    "Generate OnReady Function":{
+        "prefix": "!extrd",
+        "body": [
+         "///Extjs Template",
+         "Ext.onReady(function(){",
+         "    console.log('on Ready function ')",
+         "},function(){",
+         "   console.log('class instance created')",
+         "$0",
+         "});"
+        ]
+    },
+    "Generate Application Class":{
+        "prefix": "!extca",
+        "body": [
+         "///Extjs Template",
+         "Ext.Application(function(){",
+         "    console.log('on Ready function ')",
+         "},function(){",
+         "   console.log('class instance created')",
+         "$1",
+         "});"
+        ]
+    },
+    "Generate define new Class":{
+        "prefix": "!extncs",
+        "body": [
+         "///Extjs Template",
+         "Ext.define(${1:Class Namespace} ,{",
+         "    console.log('on Ready function ')",
+         "},function(){",
+         "   console.log('class instance created')",
+         "});"
+        ]
+    },
+    "Generate create new Class instance":{
+        "prefix": "!extcin",
+        "body": [
+         "///Extjs Template",
+         "Ext.create(${1:classInstanceName} ,{",
+         "    console.log('on Ready function ')",
+         "});"
+        ]
+    },
+    "Generate constructor":{
+        "prefix": "!extctor",
+        "body": [
+         "///Extjs Template",
+         "constructor: function(config){$0},"
+        ]
+    },
+    "Generate Empty constructor":{
+        "prefix": "!extctore",
+        "body": [
+         "///Extjs Template",
+         "constructor: function(){$0},"
+        ]
+    },
+    "Generate Function":{
+        "prefix": "!extfn",
+        "body": [
+         "///Extjs Template",
+         "${1:functionName}: function(){},"
+        ]
+    },
+    "Generate Items for Components":{
+        "prefix": "!extitm",
+        "body": [
+         "///Extjs Template",
+         "items:[$1 $0]"
+        ],
+        "description": "create an array of items for Components GUI"
+    },
+}
