@@ -7,13 +7,17 @@
     "engines": {
         "vscode": "^1.53.0"
     },
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/aneury1/extjsext"
+    },
     "categories": [
         "Snippets"
     ],
     "contributes": {
         "snippets": [
             {
-                "language": "extjs4",
+                "language": "javascript",
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
